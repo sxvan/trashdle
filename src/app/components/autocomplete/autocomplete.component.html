@@ -1,0 +1,25 @@
+<div class="autocomplete">
+  <div class="autocomplete-input">
+    <input
+      type="text"
+      (focus)="showAutocompleteResults = true"
+      (input)="updateFilteredSource()"
+      [(ngModel)]="value"
+    />
+    <button type="button" (click)="onSubmit.emit(value)">
+      {{ buttonText }}
+    </button>
+  </div>
+  <div class="autocomplete-results" *ngIf="showAutocompleteResults">
+    <div
+      *ngFor="let item of filteredSource"
+      (click)="onItemSelected.emit(item)"
+      class="autocomplete-result"
+    >
+      {{ displayFn(item) }}
+    </div>
+    <div class="autocomplete-result" *ngIf="filteredSource.length < 1">
+      {{ noResultsText }}
+    </div>
+  </div>
+</div>

@@ -1,0 +1,107 @@
+<div class="content">
+  <h1 class="title">Errate den heutigen Reality TV Star</h1>
+  <div class="catchphrase" *ngIf="starOfDay$ | async as starOfDay">
+    <p class="description">Von wem stammt folgendes Zitat?</p>
+    <p>"{{ starOfDay.catchphrase }}"</p>
+  </div>
+  <app-autocomplete
+    *ngIf="!(isCompleted$ | async)"
+    [source$]="autocompleteSource$"
+    [displayFn]="getStarName"
+    [filterSourceFn]="filterStars"
+    (onItemSelected)="onItemSelected($event)"
+    (onSubmit)="onSubmit($event)"
+    buttonText="Raten"
+    noResultsText="Kein Star gefunden"
+  >
+  </app-autocomplete>
+  <div
+    class="congratulations"
+    *ngIf="(isCompleted$ | async) && (answers$ | async) as answers"
+  >
+    <div *ngIf="starOfDay$ | async as starOfDay">
+      <h1>Gratuliere du hast {{ answers.length }} Versuche gebraucht!</h1>
+      <h2>Das Zitat stammt von {{ starOfDay.name }}</h2>
+      <p>Nächster Star verfügbar um 00:00 Uhr</p>
+    </div>
+  </div>
+  <div class="guesses" [ngClass]="{ 'auto-fit': isAutoFit }">
+    <div class="guess">
+      <div class="square header">Name</div>
+      <div class="square header">Geschlecht</div>
+      <div class="square header">Shows</div>
+      <div class="square header">Geburtsjahr</div>
+      <div class="square header">Instagram Follower</div>
+    </div>
+
+    <div *ngIf="starOfDay$ | async as starOfDay">
+      <div *ngIf="answers$ | async as answers">
+        <div *ngFor="let answer of answers.reverse()" class="guess">
+          <div
+            class="square small-text fade-in"
+            [ngClass]="getNameClass(answer.name, starOfDay)"
+          >
+            {{ answer.name }}
+          </div>
+          <div
+            class="square fade-in"
+            [ngClass]="getGenderClass(answer.gender, starOfDay)"
+            style="animation-delay: 0.5s"
+          >
+            {{ answer.gender }}
+          </div>
+          <div
+            class="square small-text fade-in"
+            [ngClass]="getShowsClass(answer.shows, starOfDay)"
+            style="animation-delay: 1s"
+          >
+            <span *ngFor="let show of answer.shows; let last = last">
+              {{ show.name }}<span *ngIf="!last">,</span>
+            </span>
+          </div>
+          <div
+            class="square fade-in"
+            [ngClass]="getBirthyearClass(answer.birthyear, starOfDay)"
+            style="animation-delay: 1.5s"
+          >
+            {{ answer.birthyear }}
+          </div>
+          <div
+            class="square fade-in"
+            [ngClass]="getFollowersClass(answer.instagram_followers, starOfDay)"
+            style="animation-delay: 2s"
+          >
+            {{ answer.instagram_followers }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="auto-fit-container">
+    <button
+      class="auto-fit-button"
+      type="button"
+      (click)="isAutoFit = !isAutoFit"
+    >
+      <img
+        [src]="
+          isAutoFit
+            ? 'assets/fit_to_screen_reverse.png'
+            : 'assets/fit_to_screen.png'
+        "
+        alt="Fit to screen"
+      />
+    </button>
+  </div>
+  <div class="color-indicators">
+    <h3>Farbmarkierungen</h3>
+    <div class="guess">
+      <div class="square correct small-text">Korrekt</div>
+      <div class="square partially-correct small-text">Teilweise korrekt</div>
+      <div class="square incorrect small-text">Falsch</div>
+      <div class="square incorrect higher small-text">Grösser</div>
+      <div class="square incorrect lower small-text">Kleiner</div>
+    </div>
+  </div>
+</div>
+<div class="background-image"></div>

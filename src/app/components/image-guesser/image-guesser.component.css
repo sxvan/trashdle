@@ -1,0 +1,79 @@
+.answers {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.image-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.image-wrapper img {
+  width: 100%;
+  transform: scale(5);
+}
+
+.grayscale {
+  filter: grayscale(100%);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.answer {
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  animation: fadeIn 0.5s forwards;
+}
+
+.congratulations {
+  color: white;
+  text-align: center;
+  background-color: darkgreen;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.title h1 {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.congratulations h1 {
+  margin-bottom: 20px;
+}
+
+.congratulations h2 {
+  margin-bottom: 5px;
+}
+
+p {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+app-autocomplete {
+  display: block;
+  margin-top: 20px;
+}
+
+.correct {
+  background-color: darkgreen;
+}
+
+.incorrect {
+  background-color: darkred;
+}

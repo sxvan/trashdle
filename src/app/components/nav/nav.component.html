@@ -1,0 +1,16 @@
+<div class="nav">
+  <button
+    type="button"
+    (click)="navigateTo('/')"
+    [ngClass]="{ current: isCurrentRoute('/') }"
+  >
+    Zitat
+  </button>
+  <button
+    type="button"
+    (click)="navigateTo('/image')"
+    [ngClass]="{ current: isCurrentRoute('/image') }"
+  >
+    Bild
+  </button>
+</div>

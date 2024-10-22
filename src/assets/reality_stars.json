@@ -1,0 +1,255 @@
+[
+  {
+    "name": "Katja Krasavice",
+    "alternative_names": ["Katja", "Die Krasavice", "Katy K"],
+    "shows": [
+      { "name": "Promi Big Brother", "year": 2018 },
+      { "name": "DSDS", "year": 2023 }
+    ],
+    "catchphrase": "Ich bin die Königin des Trash-TV!",
+    "gender": "Frau",
+    "birthyear": 1996,
+    "instagram_followers": 1300000,
+    "image_url": "https://i0.gmx.ch/image/238/38339238,pd=3,f=sdata11/stars-katja-krasavice-queen-of-bitches.jpg"
+  },
+  {
+    "name": "Evelyn Burdecki",
+    "alternative_names": ["Evy", "Evelyn B."],
+    "shows": [
+      { "name": "Bachelor in Paradise", "year": 2017 },
+      { "name": "Ich bin ein Star – Holt mich hier raus!", "year": 2019 }
+    ],
+    "catchphrase": "Ich kann nicht anders, ich bin einfach ich!",
+    "gender": "Frau",
+    "birthyear": 1988,
+    "instagram_followers": 650000,
+    "image_url": "https://image.stern.de/8516546/t/x_/v3/w1440/r1/-/burdecki.jpg"
+  },
+  {
+    "name": "Sophia Thomalla",
+    "alternative_names": ["Sophie"],
+    "shows": [{ "name": "Are You The One?", "year": 2020 }],
+    "catchphrase": "Ich mach mein Ding!",
+    "gender": "Frau",
+    "birthyear": 1989,
+    "instagram_followers": 1800000,
+    "image_url": "https://www.tz.de/assets/images/1/409/1409711-923811483-bertelsmann-party-2016-2uNSTbROBIec.jpg"
+  },
+  {
+    "name": "Pietro Lombardi",
+    "alternative_names": ["Pietro"],
+    "shows": [
+      { "name": "DSDS", "year": 2011 },
+      { "name": "Judge in DSDS", "year": 2023 }
+    ],
+    "catchphrase": "Leben ist kein Ponyhof!",
+    "gender": "Mann",
+    "birthyear": 1992,
+    "instagram_followers": 2700000,
+    "image_url": "https://bilder.fernsehserien.de/gfx/person_1000/p/pietro-lombardi-w-893.jpg.jpg"
+  },
+  {
+    "name": "Jan Köppen",
+    "alternative_names": ["Köppi"],
+    "shows": [
+      { "name": "Ich bin ein Star – Holt mich hier raus!", "year": 2023 }
+    ],
+    "catchphrase": "Es gibt kein Plan B!",
+    "gender": "Mann",
+    "birthyear": 1983,
+    "instagram_followers": 500000,
+    "image_url": "https://image.stern.de/32526586/t/cZ/v1/w1440/r1/-/jan-koeppen.jpg"
+  },
+  {
+    "name": "Giulia Siegel",
+    "alternative_names": ["Gigi"],
+    "shows": [
+      { "name": "Temptation Island VIP", "year": 2020 },
+      { "name": "Promi Big Brother", "year": 2017 }
+    ],
+    "catchphrase": "Man lebt nur einmal!",
+    "gender": "Frau",
+    "birthyear": 1974,
+    "instagram_followers": 400000,
+    "image_url": "https://aisrtl-a.akamaihd.net/themenarchiv/giulia-siegel-bilder/3-1e1eaqaq/300x0/2450/giulia-siegel-t4383.jpg"
+  },
+  {
+    "name": "Prince Damien",
+    "alternative_names": ["Damien"],
+    "shows": [
+      { "name": "DSDS", "year": 2016 },
+      { "name": "Ich bin ein Star – Holt mich hier raus!", "year": 2020 }
+    ],
+    "catchphrase": "Ich bin der König des Trash-TV!",
+    "gender": "Mann",
+    "birthyear": 1990,
+    "instagram_followers": 250000,
+    "image_url": "https://i0.gmx.ch/image/482/37785482,pd=1,f=sdata11/prince-damien.jpg"
+  },
+  {
+    "name": "Sarah Engels",
+    "alternative_names": ["Sarah Lombardi"],
+    "shows": [
+      { "name": "DSDS", "year": 2011 },
+      { "name": "Das Supertalent", "year": 2011 }
+    ],
+    "catchphrase": "Ich gebe immer 100 Prozent!",
+    "gender": "Frau",
+    "birthyear": 1992,
+    "instagram_followers": 900000,
+    "image_url": "https://image.brigitte.de/13146680/t/vA/v2/w1440/r1/-/sarah-engels--1-.jpg"
+  },
+  {
+    "name": "Georgina Fleur",
+    "alternative_names": ["Gigi Fleur"],
+    "shows": [
+      { "name": "Der Bachelor", "year": 2012 },
+      { "name": "Promi Big Brother", "year": 2014 }
+    ],
+    "catchphrase": "Ich mache mein eigenes Ding!",
+    "gender": "Frau",
+    "birthyear": 1990,
+    "instagram_followers": 500000,
+    "image_url": "https://i0.gmx.ch/image/526/36619526,pd=1,f=sdata11/georgina-fleur.jpg"
+  },
+  {
+    "name": "Daniela Katzenberger",
+    "alternative_names": ["Dani"],
+    "shows": [{ "name": "Goodbye Deutschland!", "year": 2009 }],
+    "catchphrase": "Die Katze schläft nie!",
+    "gender": "Frau",
+    "birthyear": 1986,
+    "instagram_followers": 1200000,
+    "image_url": "https://image.brigitte.de/13106882/t/V_/v3/w2048/r1/-/daniela-katzenberger--1-.jpg"
+  },
+  {
+    "name": "Claudia Obert",
+    "alternative_names": ["Clo"],
+    "shows": [
+      { "name": "Promis unter Palmen", "year": 2020 },
+      { "name": "Promi Big Brother", "year": 2021 }
+    ],
+    "catchphrase": "Echte Klasse kommt von innen!",
+    "gender": "Frau",
+    "birthyear": 1961,
+    "instagram_followers": 300000,
+    "image_url": "https://www.tz.de/assets/images/27/618/27618545-luxuslady-claudia-obert-hamburg-empfang-kunstveranstaltung-golden-things-meets-pink-carpet-vernissage-2qB2SpHEJJec.jpg"
+  },
+  {
+    "name": "Calvin Kleinen",
+    "alternative_names": [],
+    "shows": [
+      { "name": "Temptation Island", "year": 2019 },
+      { "name": "Ex on the Beach", "year": 2020 }
+    ],
+    "catchphrase": "Ich bin ein Spieler!",
+    "gender": "Mann",
+    "birthyear": 1992,
+    "instagram_followers": 150000,
+    "image_url": "https://mim.p7s1.io/pis/ld/711fzChLCVyZ-c1vEwXZAanB-DJ78rnq2V2gRWTHzVV6NywNWMSJCEGmZ4YSENP-WRL0b9lo2zmFQhNnXxD3wMoOSkCSbUobSpYO2Sklb50x_6kxEA1EzpanNchN3Xb7p-lreTV8SW8/profile:original?rect=655%2C0%2C2650%2C2650&w=400"
+  },
+  {
+    "name": "Domenico de Cicco",
+    "alternative_names": ["Domi"],
+    "shows": [
+      { "name": "Bachelor in Paradise", "year": 2018 },
+      { "name": "Temptation Island VIP", "year": 2020 }
+    ],
+    "catchphrase": "Ich liebe die Herausforderung!",
+    "gender": "Mann",
+    "birthyear": 1983,
+    "instagram_followers": 200000,
+    "image_url": "https://image.gala.de/22564920/t/oz/v5/w1440/r1/-/domenico-de-cicco.jpg"
+  },
+  {
+    "name": "Jill Lange",
+    "alternative_names": [],
+    "shows": [
+      { "name": "Are You The One?", "year": 2022 },
+      { "name": "Ex on the Beach", "year": 2023 }
+    ],
+    "catchphrase": "Love is in the air!",
+    "gender": "Frau",
+    "birthyear": 2000,
+    "instagram_followers": 400000,
+    "image_url": "https://i0.gmx.ch/image/486/40016486,pd=1,f=sdata11/jill-lange.jpg"
+  },
+  {
+    "name": "Paul Janke",
+    "alternative_names": ["Janky"],
+    "shows": [
+      { "name": "Der Bachelor", "year": 2012 },
+      { "name": "Bachelor in Paradise", "year": 2018 }
+    ],
+    "catchphrase": "Charm ist mein zweiter Vorname!",
+    "gender": "Mann",
+    "birthyear": 1981,
+    "instagram_followers": 350000,
+    "image_url": "https://i0.gmx.ch/image/722/36658722,pd=1,f=sdata11/paul-janke.jpg"
+  },
+  {
+    "name": "Jenny Elvers",
+    "alternative_names": ["Jenny"],
+    "shows": [
+      { "name": "Ich bin ein Star – Holt mich hier raus!", "year": 2013 },
+      { "name": "Promi Big Brother", "year": 2013 }
+    ],
+    "catchphrase": "Leben ist zu kurz für lange Gesichter!",
+    "gender": "Frau",
+    "birthyear": 1972,
+    "instagram_followers": 600000,
+    "image_url": "https://image.gala.de/20150554/t/UT/v16/w1440/r1/-/jenny-elvers-elbertzhagen--6684632-.jpg"
+  },
+  {
+    "name": "Kim Gloss",
+    "alternative_names": ["Kim"],
+    "shows": [
+      { "name": "DSDS", "year": 2010 },
+      { "name": "Ich bin ein Star – Holt mich hier raus!", "year": 2012 }
+    ],
+    "catchphrase": "Glitzer ist mein Motto!",
+    "gender": "Frau",
+    "birthyear": 1992,
+    "instagram_followers": 450000,
+    "image_url": "https://image.gala.de/22906956/t/fJ/v3/w960/r1/-/kim-gloss.jpg"
+  },
+  {
+    "name": "Micaela Schäfer",
+    "alternative_names": ["Mica"],
+    "shows": [
+      { "name": "Germany's Next Topmodel", "year": 2006 },
+      { "name": "Ich bin ein Star – Holt mich hier raus!", "year": 2012 }
+    ],
+    "catchphrase": "Das Leben ist ein Laufsteg!",
+    "gender": "Frau",
+    "birthyear": 1983,
+    "instagram_followers": 800000,
+    "image_url": "https://image.vip.de/23272024/t/-H/v2/w1440/r1/-/micaela-schaefer-t4079-jpg--topic-image-4079-.jpg"
+  },
+  {
+    "name": "Elena Miras",
+    "alternative_names": [],
+    "shows": [
+      { "name": "Love Island", "year": 2017 },
+      { "name": "Das Sommerhaus der Stars", "year": 2019 }
+    ],
+    "catchphrase": "Ich lebe für die Liebe!",
+    "gender": "Frau",
+    "birthyear": 1992,
+    "instagram_followers": 550000,
+    "image_url": "https://i0.gmx.ch/image/738/35071738,pd=2,f=sdata11/elena-miras.jpg"
+  },
+  {
+    "name": "Yeliz Koc",
+    "alternative_names": [],
+    "shows": [
+      { "name": "Der Bachelor", "year": 2018 },
+      { "name": "Kampf der Realitystars", "year": 2021 }
+    ],
+    "catchphrase": "Jede Frau hat ihre eigene Stärke!",
+    "gender": "Frau",
+    "birthyear": 1993,
+    "instagram_followers": 700000,
+    "image_url": "https://image.gala.de/22945366/t/Od/v6/w960/r1/-/yeliz-koc.jpg"
+  }
+]

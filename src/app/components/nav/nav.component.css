@@ -1,0 +1,20 @@
+.nav {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nav button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #8e8e8e;
+  color: white;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.nav button.current {
+  background-color: #006d6f;
+}

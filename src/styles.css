@@ -1,0 +1,31 @@
+/* You can add global styles to this file, and also import other style files */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+.content {
+  max-width: 700px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.background-image {
+  position: fixed; /* Fix it to cover the entire viewport */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("/assets/background.jpg"); /* Set your background image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: brightness(0.1);
+  z-index: -1; /* Ensure it stays behind any content */
+}

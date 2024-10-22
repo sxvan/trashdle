@@ -1,0 +1,64 @@
+<!-- image-guesser.component.html -->
+
+<div class="content">
+  <div class="title">
+    <h1>Errate den Namen dieses Reality TV Stars</h1>
+  </div>
+
+  <div *ngIf="starOfDay$ | async as starOfDay" class="star">
+    <div class="image-wrapper" *ngIf="starOfDay.image_url">
+      <img
+        *ngIf="answers$ | async as answers"
+        id="image"
+        src="{{ starOfDay.image_url }}"
+        alt="reality star to guess"
+        [style.transform]="
+          'scale(' + (getImageScale(answers, isCompleted) || 5) + ')'
+        "
+        [ngClass]="{
+          grayscale: answers.length < 5 && !(isCompleted$ | async)
+        }"
+      />
+    </div>
+
+    <div
+      class="congratulations"
+      *ngIf="(isCompleted$ | async) && (answers$ | async) as answers"
+    >
+      <div *ngIf="starOfDay$ | async as starOfDay">
+        <h1>Gratuliere du hast {{ answers.length }} Versuche gebraucht!</h1>
+        <h2>Das Bild stammt von {{ starOfDay.name }}</h2>
+        <p>Nächster Star verfügbar um 00:00 Uhr</p>
+      </div>
+    </div>
+
+    <div *ngIf="!(isCompleted$ | async)">
+      <p>Mit jedem versuch wird mehr vom Bild sichtbar.</p>
+    </div>
+
+    <app-autocomplete
+      *ngIf="!(isCompleted$ | async)"
+      [source$]="autocompleteSource$"
+      [displayFn]="getStarName"
+      [filterSourceFn]="filterStars"
+      (onItemSelected)="onItemSelected($event)"
+      (onSubmit)="onSubmit($event)"
+      buttonText="Raten"
+      noResultsText="Kein Star gefunden"
+    >
+    </app-autocomplete>
+  </div>
+  <div *ngIf="answers$ | async as answers" class="answers">
+    <div
+      *ngFor="let answer of answers.reverse()"
+      class="answer"
+      [ngClass]="{
+        correct: answer.name === (starOfDay$ | async)?.name,
+        incorrect: answer.name !== (starOfDay$ | async)?.name
+      }"
+    >
+      {{ answer.name }}
+    </div>
+  </div>
+</div>
+<div class="background-image"></div>
