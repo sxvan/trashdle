@@ -1,0 +1,11 @@
+services:
+  trashdle:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: trashdle
+    ports:
+      - "4200:4200"
+    environment:
+      - TZ=Europe/Zurich
+    restart: unless-stopped

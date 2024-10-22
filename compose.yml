@@ -1,0 +1,9 @@
+services:
+  trashdle:
+    image: ghcr.io/sxvan/trashdle:latest
+    container_name: trashdle
+    ports:
+      - "4200:4200"
+    environment:
+      - TZ=Europe/Zurich
+    restart: unless-stopped
