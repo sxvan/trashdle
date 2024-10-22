@@ -1,6 +1,6 @@
 services:
   trashdle:
-    image: ghcr.io/sxvan/trashdle:latest
+    image: ghcr.io/sxvan/trashdle:main
     container_name: trashdle
     ports:
       - "4200:4200"
